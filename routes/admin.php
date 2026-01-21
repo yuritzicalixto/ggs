@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 // })->name('admin.dashboard');
 
 Route::get('/', function () {
-    return 'Hola desde el administrador';
+    return view('admin.dashboard');
 })->name('dashboard');
 
 // Route::get('/', function () {
