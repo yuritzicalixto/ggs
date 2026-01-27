@@ -361,7 +361,7 @@
             <div class="map-panel__frame">
               <iframe
                 title="Ubicación en Google Maps"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.7!2d-99.191!3d19.42!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sBosque%20de%20Chapultepec!5e0!3m2!1ses-419!2smx!4v0000000000"
+                src="https://www.google.com/maps/embed?pb=!3m2!1ses-419!2smx!4v1769031322027!5m2!1ses-419!2smx!6m8!1m7!1szbP1h6T6SXDVjOtZINTQ7g!2m2!1d18.89555404713568!2d-96.93779430287314!3f125.43141493082365!4f-10.30767088843217!5f0.7820865974627469"
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
                 allowfullscreen

@@ -6,6 +6,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
+Route::get('/', function () {
+    return redirect()->route('sitio.index');
+});
 
 Route::group(['prefix' => 'sitio'], function (){
 
@@ -23,7 +26,7 @@ Route::middleware([
     'verified',
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        return view('admin.dashboard');
     })->name('dashboard');
 });
 
